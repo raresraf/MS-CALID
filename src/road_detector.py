@@ -71,7 +71,7 @@ y = height / 720
 colors = {}
 
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-video = cv2.VideoWriter('output.avi',fourcc, 20.0, (640,480))
+video = cv2.VideoWriter('output.avi',fourcc, 20.0, (1280, 720))
 
 id = 1
 while cap.isOpened():
